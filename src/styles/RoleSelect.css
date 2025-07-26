@@ -1,0 +1,39 @@
+/* src/styles/RoleSelect.css */
+.role-select-container {
+  background-color: #0a1d37;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.role-select-container h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #5fa8f5;
+}
+
+.role-select-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #114b9b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #0d3978;
+}

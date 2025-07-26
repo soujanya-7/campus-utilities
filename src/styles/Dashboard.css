@@ -1,0 +1,38 @@
+.dashboard-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f4f9ff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-container h2 {
+  color: #003366;
+  text-align: center;
+}
+
+.dashboard-container p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.dashboard-container strong {
+  color: #004080;
+}
+
+.dashboard-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard-container button:hover {
+  background-color: #c0392b;
+}

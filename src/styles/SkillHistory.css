@@ -1,0 +1,100 @@
+.skill-history-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.session-list {
+  list-style: none;
+  padding: 0;
+}
+
+.session-item {
+  border-left: 5px solid #999;
+  background: #f9fafb;
+  padding: 16px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+}
+
+.session-item.scheduled {
+  border-color: #2563eb;
+}
+
+.session-item.approved {
+  border-color: #059669;
+}
+
+.session-item.completed {
+  border-color: #444;
+}
+
+.session-item .session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session-header .skill-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.session-header .session-time {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.session-header .status-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.session-item.scheduled .status-badge {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.session-item.completed .status-badge {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.session-body {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join-link {
+  margin-left: auto;
+  background: #2563eb;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.join-link:hover {
+  background: #1e40af;
+}

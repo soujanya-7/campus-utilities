@@ -1,0 +1,45 @@
+/* src/styles/StudentLeave.css */
+
+.leave-form, .leave-status {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.leave-form select,
+.leave-form textarea,
+.leave-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.leave-form button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leave-form button:hover {
+  background-color: #2563eb;
+}
+
+.leave-status-card {
+  border-left: 4px solid #3b82f6;
+  background: #f9fafb;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.leave-status-card p {
+  margin: 4px 0;
+}

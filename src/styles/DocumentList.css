@@ -1,0 +1,37 @@
+.doc-list {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.doc-list h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.doc-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.doc-list li {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  line-height: 1.6;
+}
+
+.doc-list a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.doc-list a:hover {
+  color: #ffa500;
+  text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+/* src/styles/SkillRequests.css */
+
+.skill-requests-container {
+  background-color: #0c1a2f;
+  color: #fff;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+}
+
+.skill-requests-container h2 {
+  margin-bottom: 1.5rem;
+  color: #00e6e6;
+}
+
+.request-card {
+  background-color: #1a2b3c;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.request-card p {
+  margin: 0.3rem 0;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.status-pending {
+  background-color: #ffbb33;
+  color: #000;
+}
+
+.status-approved {
+  background-color: #00e676;
+  color: #000;
+}
+
+.status-rejected {
+  background-color: #ff5252;
+  color: #fff;
+}

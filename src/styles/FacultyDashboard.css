@@ -1,0 +1,107 @@
+.faculty-dashboard-modern {
+  padding: 2rem;
+  background: #0c1a2f;
+  min-height: 100vh;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.faculty-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #00e6e6;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.btn-logout {
+  background: transparent;
+  border: 1px solid #00e6e6;
+  color: #00e6e6;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background: #00e6e6;
+  color: black;
+}
+
+.faculty-dashboard-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-box {
+  background: #142c44;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.card-box h3 {
+  color: #00c6ff;
+  margin-bottom: 12px;
+}
+
+.chart-container {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.badge {
+  background: #1f4a66;
+  margin: 6px 0;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.badge.success {
+  background-color: #1a6651;
+}
+
+.badge.info {
+  background-color: #324c77;
+}
+
+.due {
+  color: #00e6e6;
+  font-weight: bold;
+}
+.card-box button {
+  background-color: #14b8a6; /* Teal */
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-box button:hover {
+  background-color: #0f766e; /* Darker teal */
+}

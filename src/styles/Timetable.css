@@ -1,0 +1,160 @@
+/* === Common Table Styles === */
+.timetable-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.timetable-table th,
+.timetable-table td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: center;
+}
+
+.timetable-table th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+  color: #334155;
+}
+
+.timetable-table td select {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background-color: #fff;
+  transition: border 0.2s;
+}
+
+.timetable-table td select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* === Timetable Container (Faculty Editor) === */
+.timetable-container {
+  padding: 30px;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.timetable-container h2 {
+  font-size: 26px;
+  margin-bottom: 24px;
+  color: #1e293b;
+  text-align: center;
+}
+
+/* === Dropdown Styling === */
+.timetable-container select {
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background-color: #ffffff;
+  color: #0f172a;
+  transition: border-color 0.2s ease;
+}
+
+.timetable-container select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* === Save Button === */
+.save-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 22px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 24px auto 0;
+}
+
+.save-btn:hover {
+  background-color: #1e40af;
+}
+
+/* === Dashboard Layout === */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: 240px;
+  background-color: #1f2937;
+  color: white;
+  padding: 24px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 14px;
+}
+
+.sidebar nav ul li a {
+  color: #d1d5db;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #374151;
+}
+
+.sidebar .logout {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #f87171;
+}
+
+/* === Main Content Area === */
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+/* === Timetable Viewer === */
+.timetable-viewer-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1f2937;
+}
+
+/* === Responsive Table Wrapper === */
+.overflow-x-auto {
+  overflow-x: auto;
+}

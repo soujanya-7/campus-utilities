@@ -1,0 +1,50 @@
+[
+  {
+    "name": "projects/campus-utilities-69aa0/databases/(default)/documents/weeklySchedule/sampleSchedule",
+    "fields": {
+      "userId": { "stringValue": "0N8Yc79ZzrWSsDahPoy48EPoNSA2" },
+      "tasks": {
+        "mapValue": {
+          "fields": {
+            "Monday": {
+              "arrayValue": {
+                "values": [
+                  {
+                    "mapValue": {
+                      "fields": {
+                        "time": { "stringValue": "09:00" },
+                        "task": { "stringValue": "Data Structures" }
+                      }
+                    }
+                  },
+                  {
+                    "mapValue": {
+                      "fields": {
+                        "time": { "stringValue": "11:00" },
+                        "task": { "stringValue": "DBMS Lab" }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "Tuesday": {
+              "arrayValue": {
+                "values": [
+                  {
+                    "mapValue": {
+                      "fields": {
+                        "time": { "stringValue": "10:00" },
+                        "task": { "stringValue": "OS Lecture" }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

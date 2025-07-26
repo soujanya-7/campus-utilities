@@ -1,0 +1,76 @@
+/* Make sure the body is dark */
+body {
+  background-color: #0d1b2a;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Upload container */
+.doc-upload-form {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #1b2d45, #0d1b2a);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+}
+
+/* Heading */
+.doc-upload-form h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #61dafb;
+}
+
+/* Form layout */
+.doc-upload-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs and select */
+.doc-upload-form input,
+.doc-upload-form select {
+  margin: 12px 0;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #13293d;
+  color: #ffffff;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.doc-upload-form input:focus,
+.doc-upload-form select:focus {
+  border: 1px solid #ffa500;
+}
+
+/* File input */
+.doc-upload-form input[type="file"] {
+  background-color: #1a324d;
+  padding: 10px;
+}
+
+/* Upload button */
+.doc-upload-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.doc-upload-form button:hover {
+  background-color: #e67e00;
+  transform: scale(1.03);
+}
