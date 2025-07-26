@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+CampusLink – Smart Campus Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CampusLink is a full-stack web application designed to streamline student and faculty interactions within a campus environment. It provides features like announcements, document management, polls, timetable viewing, leave/OD requests, and more — all within a single portal.
 
-## Available Scripts
+AI Assistant – Built from Scratch
 
-In the project directory, you can run:
+One of the most unique aspects of CampusLink is the custom-built AI chatbot integrated into the platform.
 
-### `npm start`
+Features of the AI Assistant:
+Built from scratch using vanilla React and JavaScript APIs (e.g., Web Speech API).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Capable of both speech recognition and text-to-speech (TTS).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Accepts text or voice input and responds dynamically via an external AI inference endpoint.
 
-### `npm test`
+Can be used for help, FAQs, or even student assistance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Intelligent Message Prioritization using Dijkstra's Algorithm:
+The chatbot internally simulates a graph-based approach to handle responses, where:
 
-### `npm run build`
+Each possible conversation or topic is treated as a node.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The edges between nodes represent the semantic similarity or transition cost.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+When a user asks a question, the bot uses Dijkstra’s Algorithm to compute the shortest path to the most relevant response node.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This approach ensures efficient, prioritized, and context-aware replies, especially when handling complex queries or help navigation.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tech Stack
+Frontend: React.js, Chart.js, Firebase Auth
+Backend (AI): Custom API with Dijkstra-based logic
+Database: Firebase Firestore
+Voice/AI Tools: Web Speech API (SpeechRecognition + SpeechSynthesis)
